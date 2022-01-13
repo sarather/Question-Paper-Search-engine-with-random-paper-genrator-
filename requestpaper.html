@@ -1,0 +1,41 @@
+<html> <head>
+<link rel="stylesheet" type="text/css" href="style3.css">
+
+<style>	.td {
+  width:150px;
+  border-spacing:20 30px;	
+  padding-left:1100px;
+}
+.b{
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #60a3bc;
+border-radius: 50px;
+display: inline-block;
+border: none;
+width:100px;
+height:50px;
+transition: all 0.4s ease 0s;
+text-align:center;
+}
+</style></head><marquee> You can request the paper the papers's here !!</marquee> 
+<body style="background-color:#ff99ff;" ><table><tr><td>
+<h1>Welcome!</h1></td> <td class="td"><form action="index.php" action="POST"> <button class="b">Home Page </button></form></td></tr></table>
+<center >
+<form action="insertrequest.php" method="POST">
+<input class="button" type="text" name="name" placeholder="Enter Name"><br><br>
+<input type="text"class="button" name="subject" placeholder="Enter subject"><br><br>
+<select class="button" name="department">
+  <option value="Computer Department">Computer Department</option>
+  <option value="English Department">English Department</option>
+  <option value="Management Department">Management Department </option>
+  <option value="Social Department">Social Department</option>
+</select><br><br>
+
+<input class="button" type="text" name="message" placeholder="Enter message"><br><br>
+<button class="bu"> Request!</button>
+</center>
+
+</body>
+</html>
